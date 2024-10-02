@@ -2,7 +2,7 @@
 <h1>Credit Card Data Model Development</h1>
 
 <h2>Project Overview</h2>
-<p>This project involves the development of an end-to-end machine learning model using <strong>credit card transaction data</strong>. The goal is to predict customer behavior, identify potential risks, and uncover insights into credit card usage. The entire workflow includes <strong>data cleaning</strong>, <strong>feature engineering</strong>, <strong>model building</strong>, and <strong>evaluation</strong>.</p>
+<p>This project involves the development of an end-to-end machine learning model using <strong>credit card data</strong>. The goal is to predict customer behavior, identify potential risks, and uncover insights into credit card usage. The entire workflow includes <strong>data cleaning</strong>, <strong>feature engineering</strong>, <strong>model building</strong>, and <strong>evaluation</strong>.</p>
 
 <h2>Table of Contents</h2>
 <ul>
@@ -52,25 +52,6 @@ credit-card-model/
 └── results/                # Output results such as evaluation metrics, plots, etc.
 </pre>
 
-<h2 id="installation">Installation</h2>
-<p>To run this project, you'll need to set up your environment. Follow these steps:</p>
-
-<ol>
-  <li><strong>Clone the repository</strong>:</li>
-  <pre><code>git clone https://github.com/yourusername/credit-card-model.git</code></pre>
-
-  <li><strong>Navigate to the project directory</strong>:</li>
-  <pre><code>cd credit-card-model</code></pre>
-
-  <li><strong>Install the required dependencies</strong>:</li>
-  <pre><code>pip install -r requirements.txt</code></pre>
-
-  <li><strong>Optional</strong>: Set up a virtual environment:</li>
-  <pre><code>python -m venv venv
-source venv/bin/activate  # For Linux/macOS
-venv\Scripts\activate     # For Windows
-</code></pre>
-</ol>
 
 <h2 id="data-preprocessing">Data Preprocessing</h2>
 <p>The data preprocessing pipeline involves the following steps:</p>
